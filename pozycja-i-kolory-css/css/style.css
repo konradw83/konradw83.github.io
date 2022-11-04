@@ -1,0 +1,99 @@
+.container {
+    width: 628px;
+    height: 628px;
+    background-color: rgb(236, 236, 236);
+    position: relative;
+}
+
+.rectangle {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px; 
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.violet {
+    background-color: indigo;
+}
+
+.gray {
+    background-color: grey;
+}
+
+.pink {
+    background-color: pink;
+}
+
+
+.round {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.rpink {
+    background-color: pink;
+}
+
+.rgray {
+    background-color: gray;
+}
+
+.rviolet {
+    background-color: indigo;
+}
+
+.rgreen {
+    background-color: green;
+}
+
+.rred {
+    background-color: red;
+}
+
+.rblue {
+    background-color: blue;
+}
+
+.rorange {
+    background-color: orange;
+}
+
+.ryellow {
+    background-color: yellow;
+}
+
+.rblack {
+    background-color: black;
+}
+
