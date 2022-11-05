@@ -11,7 +11,7 @@
     display: inline-block;
     position: relative;
     margin-left: 5px;
-    margin-top: 5px; 
+    margin-top: 5px;
 }
 
 .red {
@@ -57,43 +57,7 @@
     border: 2px solid black;
     border-radius: 50%;
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-
-.rpink {
-    background-color: pink;
-}
-
-.rgray {
-    background-color: gray;
-}
-
-.rviolet {
-    background-color: indigo;
-}
-
-.rgreen {
-    background-color: green;
-}
-
-.rred {
-    background-color: red;
-}
-
-.rblue {
-    background-color: blue;
-}
-
-.rorange {
-    background-color: orange;
-}
-
-.ryellow {
-    background-color: yellow;
-}
-
-.rblack {
-    background-color: black;
-}
-
