@@ -1,0 +1,65 @@
+.odliczanie {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    counter-reset: countdown 10;
+    animation: finalcount 11s linear infinite;
+
+}
+
+.odliczanie::after {
+    content: counter(countdown);
+    font-size: 10em;
+    font-family:  'Calibri';        
+}
+
+
+@keyframes finalcount {
+    0% {
+        counter-increment: countdown 0;
+    }
+
+    10% {
+        counter-increment: countdown -1;
+    }
+
+    20% {
+        counter-increment: countdown -2;
+    }
+
+    30% {
+        counter-increment: countdown -3;
+    }
+
+    40% {
+        counter-increment: countdown -4;
+    }
+
+    50% {
+        counter-increment: countdown -5;
+    }
+
+    60% {
+        counter-increment: countdown -6;
+    }
+
+    70% {
+        counter-increment: countdown -7;
+    }
+
+    80% {
+        counter-increment: countdown -8;
+    }
+
+    90% {
+        counter-increment: countdown -9;
+    }
+
+    100% {
+        counter-increment: countdown -10;
+    }
+}

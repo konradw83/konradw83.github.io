@@ -1,0 +1,18 @@
+.container {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: countdown 10s linear infinite;
+}
+
+@keyframes countdown {
+    0% {
+        content: .odliczanie 10; 
+    }
+
+}
