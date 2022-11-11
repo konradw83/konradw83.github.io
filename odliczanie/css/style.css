@@ -7,15 +7,18 @@
     justify-content: center;
     align-content: center;
     counter-reset: countdown 10;
-    animation: finalcount 11s linear infinite;
+    animation: finalcount 9s linear;
 
 }
 
 .odliczanie::after {
+    animation: showtext 1s 9s linear infinite;
     content: counter(countdown);
     font-size: 10em;
-    font-family:  'Calibri';        
+    font-family: 'Calibri'; 
+    align-items: center;
 }
+
 
 
 @keyframes finalcount {
@@ -23,43 +26,54 @@
         counter-increment: countdown 0;
     }
 
-    10% {
+    11% {
         counter-increment: countdown -1;
     }
 
-    20% {
+    22% {
         counter-increment: countdown -2;
     }
 
-    30% {
+    33% {
         counter-increment: countdown -3;
     }
 
-    40% {
+    44% {
         counter-increment: countdown -4;
     }
 
-    50% {
+    55% {
         counter-increment: countdown -5;
     }
 
-    60% {
+    66% {
         counter-increment: countdown -6;
     }
 
-    70% {
+    77% {
         counter-increment: countdown -7;
     }
 
-    80% {
+    88% {
         counter-increment: countdown -8;
     }
 
-    90% {
+    100% {
         counter-increment: countdown -9;
     }
 
+}
+
+@keyframes showtext {
+    0% {
+        content: 'I love CSS :)';
+        font-size: 6em;
+        align-self: center;
+    }
+
     100% {
-        counter-increment: countdown -10;
+        content: 'I love CSS :)';
+        font-size: 6em;
+        align-self: center;
     }
 }
